@@ -23,7 +23,7 @@ The long-term goal is to infer upstream genetic interventions that may move a ce
 
 ## Framework
 <p align="center">
-  <img src="assets/overview.png" width="900">
+  <img src="assets/Virtual_cell_model_pipline.png" width="900">
 </p>
 
 ## Motivation
