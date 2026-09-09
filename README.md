@@ -21,6 +21,11 @@ Desired / Target Cell State -> Candidate Perturbation
 
 The long-term goal is to infer upstream genetic interventions that may move a cell toward a target state. The **current implementation is narrower than this full vision**: it learns perturbation-associated cell-state representations from existing Perturb-seq data and maps those representations into a GenePT gene-embedding space for candidate perturbation retrieval.
 
+## Framework
+<p align="center">
+  <img src="assets/overview.png" width="900">
+</p>
+
 ## Motivation
 
 Forward perturbation models ask what cellular state will follow a known intervention. In many biological design settings, the complementary question is more directly actionable: given a cellular state of interest, which perturbation may be associated with that state?
