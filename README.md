@@ -7,6 +7,10 @@
 
 ## Overview
 
+<p align="center">
+  <img src="assets/Virtual_cell_model_pipline.png" width="900">
+</p>
+
 Most virtual-cell and perturbation-prediction models are formulated in the forward direction:
 
 ```text
@@ -21,10 +25,7 @@ Desired / Target Cell State -> Candidate Perturbation
 
 The long-term goal is to infer upstream genetic interventions that may move a cell toward a target state. The **current implementation is narrower than this full vision**: it learns perturbation-associated cell-state representations from existing Perturb-seq data and maps those representations into a GenePT gene-embedding space for candidate perturbation retrieval.
 
-## Framework
-<p align="center">
-  <img src="assets/Virtual_cell_model_pipline.png" width="900">
-</p>
+
 
 ## Motivation
 
