@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Research data and intermediates
+data/
+outputs/
+checkpoints/
+artifacts/
+*.h5ad
+*.h5
+*.hdf5
+*.loom
+*.mtx
+*.mtx.gz
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# Training logs / experiment trackers
+lightning_logs/
+wandb/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
